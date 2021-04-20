@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Local Buddy',
+      title: 'Local_Buddy',
       home: UserGuide(),
     );  
   }
