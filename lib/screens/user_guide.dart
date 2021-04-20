@@ -19,7 +19,7 @@ class UserGuide extends StatelessWidget
               padding: EdgeInsets.all(10),
               child: Image.asset('assets/images/icon1.png'),
             ),
-            TextField(decoration: InputDecoration(labelText: 'Email')),
+            TextField(decoration: InputDecoration(labelText: 'Mobile Number')),
             TextField(
               decoration: new InputDecoration(
 
