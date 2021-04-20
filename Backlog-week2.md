@@ -5,3 +5,6 @@
 |  Coding   |  All members    |  Pending   |   20-04-2021     |
 |         Backlog     | Niharika  |    Completed|    20-04-2021     |
 |          readme file   |     Vivek    |  Completed    |   20-04-2021    |
+| Firebase connection | Ajith | Completed | 20-04-2021 |
+| Added authenticate.dart & sigin.dart | Ajith | Completed | 20-04-2021 |
+| Added anonymous authentication | Ajith | Completed | 20-04-2021 |
