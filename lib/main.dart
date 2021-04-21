@@ -1,6 +1,5 @@
 import "package:flutter/material.dart";
-
-import "./screens/user_guide.dart";
+import './screens/wrapper.dart';
 
 void main()
 {
@@ -13,9 +12,7 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Local Buddy',
-      home: UserGuide(),
+      home: Wrapper(),
     );  
   }
 }
