@@ -7,4 +7,5 @@
  - Amrutha: Takes up Login page
  - Ajith: Takes up connection with firebase
  - Vivek: Takes up reordering css sheets and designing the page
- Meeting ends at 11.15pm 
+
+Meeting ends at 11.15pm 
