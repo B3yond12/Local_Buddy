@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Merriweather+Sans:ital,wght@0,400;1,300&family=Pacifico&display=swap');
+body{
+    margin:20px;
+    padding: 0;
+    font-family:Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("../Images/WhatsApp\ Image\ 2021-04-26\ at\ 12.59.13\ PM.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+  font-family: Pacifico;
+  font-weight: 700;
+  font-size: 90px;
+  color: #bbe1c3;
+  justify-content: center;  
+  text-align: center;
+  }
+  h2{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #f4a259;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 20px;
+  }
+
+.loginbox{
+  width: 300px;
+  height: 230px;
+  color: #fff;
+  top: 55%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  padding: 50px 30px;
+  text-align: center;
+  outline: black;
+}
+.button-style {
+  width: 180px;
+  height: 65px;
+  border-radius: 5px;
+  border-color: black;
+  line-height: 45px;
+  margin: 25px;
+  font-size: 35px;
+  background-color: #99b2dd;
+  font-family: 'Libre Baskerville', serif;
+}
+
