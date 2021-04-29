@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Slab:wght@500&display=swap');
+body
+{
+	margin:0;
+	padding:0;
+	background-image: url("../Images/Untitled design.jpg");
+	background-size: cover;
+	font-family: 'Roboto Slab';
+}
+.login{
+	position: absolute;
+	top: 23%;
+	left: 38%;
+		
+	    width: 320px;
+		height: 280px;
+		padding: 65px;
+		background:rgba(0,0,0,0.7);
+		
+		border-radius:5px;		
+}
+h2{
+	font-family: 'Roboto Slab';
+	font-size: 60px;
+	text-align:center;
+	color:rgb(240, 223, 157);
+	font-weight: 550;
+	text-decoration: underline;
+	
+}
+label{
+	color: #08ffd1;
+	font-size:20px;
+}
+#Uname{
+	text-align: center;
+	font-size: 20px;
+	width:300px;
+	height:40px;
+	border:none;
+	border-radius:3px;
+	padding-left:8px;
+}
+#Pass{
+	text-align: center;
+	font-size: 20px;
+	width:300px;
+	height:40px;
+	border:none;
+	border-radius:3px;
+	padding-left:8px;
+}
+#log{
+	width:316px;
+	height:40px;
+	border:none;
+	font-size: 20px;
+	border-radius:17px;
+	padding-left:7px;
+	color: black;
+	font-weight: 200;
+	border-color: black;
+	border-width: 2px;
+}
+span{
+	color:white;
+	font-size:19px;
+}
+a{
+	color:white;
+	float:right;
+	background-color:grey;
+}
+
+	
+	
