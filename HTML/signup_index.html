@@ -4,6 +4,11 @@
 <head>
 	<title> Sign Up </title>
 	<link rel="stylesheet" type="text/css" href="../CSS/signup.css">
+
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
 </head>
 
 
@@ -12,11 +17,11 @@
 <form action = "insert.php" method = "POST" >
 	<h1>Sign Up</h1>
 	<br>
-	<input type="text" name="username" placeholder="Username" required/>
-	<input type="text" name="phonenumber" placeholder="Phone Number" required/>
-	<input type="password" name="password" placeholder="Password" required/>
-	<input type="password" name="password" placeholder="Confirm Password" required>
-	<button type="submit">Sign Up</button>
+	<input id="usrname" type="text" name="username" placeholder="Username" required/>
+	<input id="Phno" type="text" name="phonenumber" placeholder="Phone Number" required/>
+	<input id="pwd1" type="password" name="password" placeholder="Password" required/>
+	<input id="pwd2" type="password" name="password" placeholder="Confirm Password" required>
+	<button id="btn-signup" type="submit">Sign Up</button>
 </form>
 
 </body>

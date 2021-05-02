@@ -32,7 +32,7 @@ label{
 	color: #08ffd1;
 	font-size:20px;
 }
-#Uname{
+#phone{
 	text-align: center;
 	font-size: 20px;
 	width:300px;
@@ -50,7 +50,7 @@ label{
 	border-radius:3px;
 	padding-left:8px;
 }
-#log{
+#btn-login{
 	width:316px;
 	height:40px;
 	border:none;
@@ -93,6 +93,6 @@ h3{
 	font-weight: 100;
 	border-color: black;
 	border-width: 2px;	
-
+}
 	
 	
