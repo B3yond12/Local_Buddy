@@ -3,7 +3,13 @@
 <head>
 	<title>Login form</title>
 	<link rel="stylesheet" type="text/css" href="../CSS/login.css">
+
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
 </head>
+
 <body>
 	<h2>  Login Page </h2><br>
 	<div class="login">
@@ -18,7 +24,7 @@
 		</label>
 		<input type="Password" name="Pass" id="Pass" placeholder="password">
 		<br><br><br>
-		<input type="button" name="log" id="log" value="Log In">
+		<input type="button" name="log" id="btn-login" value="Log In">
 		<br><br><br>
 		<input type="checkbox" id="check">
 		<span>Remember me</span>
