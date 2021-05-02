@@ -9,10 +9,47 @@
 
 <body>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCl4mG_PkpeSJ2mpDcrdPV9wC7B70823AM",
+    authDomain: "localbuddy-15196.firebaseapp.com",
+    projectId: "localbuddy-15196",
+    storageBucket: "localbuddy-15196.appspot.com",
+    messagingSenderId: "961339879568",
+    appId: "1:961339879568:web:1a6810f6f07cd215832815",
+    measurementId: "G-7YEKMBRZH1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  function writeData() {
+	  firebase.database().ref("guide").push({
+		 Name: document.getElementById("Name").value;
+		username : document.getElementById("username").value;
+    phonenumber : document.getElementById("Phonenumber").value;
+    password : document.getElementById("password").value;
+    password : document.getElementById("Password").value;
+    place : document.getElementById("place").value;
+    myFile : document.getElementById("myFile").value
+	  
+  });
+  }
+
+</script>
 <form>
 	<h1>Sign Up</h1>
 	<br>
-	<input type="text" name="Full Name" placeholder="Full Name"/>
+	<input type="text" name="Name" placeholder="Name"/>
 	<input type="text" name="username" placeholder="Username" />
 	<input type="text" name="phonenumber" placeholder="Phone Number" />
 	<input type="password" name="password" placeholder="Password" />
@@ -21,7 +58,7 @@
 	<p>Please upload a valid Photo ID</p>		
 	  <input type="file" id="myFile" name="filename">
      </form>
-	<button type="submit">Sign Up</button>
+	<button onclick = "writeData()">Sign Up</button>
  </form>
 </body>
 </html>
