@@ -34,12 +34,12 @@
   firebase.analytics();
   function writeData() {
 	  firebase.database().ref("guide").push({
-		 Name: document.getElementById("Name").value;
-		username : document.getElementById("username").value;
-    phonenumber : document.getElementById("Phonenumber").value;
-    password : document.getElementById("password").value;
-    password : document.getElementById("Password").value;
-    place : document.getElementById("place").value;
+		 Name: document.getElementById("Name").value,
+		username : document.getElementById("username").value,
+    phonenumber : document.getElementById("Phonenumber").value,
+    password : document.getElementById("password").value,
+    password : document.getElementById("Password").value,
+    place : document.getElementById("place").value,
     myFile : document.getElementById("myFile").value
 	  
   });
