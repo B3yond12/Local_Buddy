@@ -1,0 +1,58 @@
+{
+	margin: 0;
+	padding:0;
+	font-family:sans-serif;
+	box-sizing: border-box;
+}
+body{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	height:100vh;
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../Images/johannes-plenio-qkfxBc2NQ18-unsplash.jpg');
+	background-size:cover;
+}
+form{
+	
+	margin-top: 60px;
+	text-align:center;
+}
+input{	
+	display:block;
+	width:350px;
+	height:40px;
+	margin:18px;
+	border:none;
+	outline:none;
+	font-size:22px;
+	border-bottom: 2px solid white;
+	background: transparent;
+	color: #f7f7ff;
+
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+
+}
+
+button{
+	width:350px;
+	height:40px;
+	font-size:25px;
+	background-color:blue;
+	border: none;
+	color: white;
+	margin-top:20px;
+    border-radius: 20px;
+}
+form h1{
+	margin-bottom:30px;
+	color:#bdd5ea;
+	font-size: 55px;
+    text-decoration: underline;
+}
+::placeholder{
+	color:#f7f7ff;
+}
