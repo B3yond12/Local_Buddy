@@ -1,4 +1,4 @@
-{
+*{
 	margin: 0;
 	padding:0;
 	font-family:sans-serif;
@@ -35,7 +35,8 @@ button{
 	width:350px;
 	height:40px;
 	font-size:25px;
-	background-color:gray;
+	border-radius: 20px;
+	background-color:blue;
 	border: none;
 	color: white;
 	margin-top:20px;
@@ -44,6 +45,7 @@ form h1{
 	margin-bottom:30px;
 	color:#bdd5ea;
 	font-size: 50px;
+	text-decoration: underline;
 }
 ::placeholder{
 	color:#f7f7ff;
