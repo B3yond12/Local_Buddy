@@ -17,6 +17,38 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
 
+<form>
+	<h1>Sign Up</h1>
+	<br>
+	<input type="text" name="Full Name" placeholder="Name"/>
+	<input type="text" name="username" placeholder="Username" />
+	<input type="number" name="phonenumber" placeholder="Phone Number" />
+	<input class="pwd1" type="password" name="password" placeholder="Password" />
+	<input class="pwd2" type="password" name="password" placeholder="Confirm Password">
+	<input type="text" name="place" placeholder="Place of Interest"/>
+	<p>Please upload a valid Photo ID</p>		
+	  <input type="file" id="myFile" name="filename">
+     </form>     
+	<button class="btn-signup" onclick = "writeData()">Sign Up</button>
+ </form>
+ <script>
+  document.querySelector('.btn-signup').onclick=function(){
+    var password=document.querySelector('.pwd1').value,
+    confirmPassword=document.querySelector('.pwd2').value;
+    if(password=""){
+      alert("Password Field cannot be empty!!");
+    }
+    else if(password!=confirmPassword){
+      alert("Passwords do not match. Try again!!");
+      return false
+    }
+    else if(password==confirmPassword){
+      alert("Passwords match!!!");
+    }
+    return true
+  }
+</script>
+
 <script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -46,19 +78,5 @@
   }
 
 </script>
-<form>
-	<h1>Sign Up</h1>
-	<br>
-	<input type="text" name="Full Name" placeholder="Name"/>
-	<input type="text" name="username" placeholder="Username" />
-	<input type="number" name="phonenumber" placeholder="Phone Number" />
-	<input type="password" name="password" placeholder="Password" />
-	<input type="password" name="password" placeholder="Confirm Password">
-	<input type="text" name="place" placeholder="Place of Interest"/>
-	<p>Please upload a valid Photo ID</p>		
-	  <input type="file" id="myFile" name="filename">
-     </form>
-	<button onclick = "writeData()">Sign Up</button>
- </form>
 </body>
 </html>

@@ -9,7 +9,7 @@ body{
 	align-items:center;
 	flex-direction:column;
 	height:100vh;
-	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../Images/johannes-plenio-qkfxBc2NQ18-unsplash.jpg');
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../Images/Untitled\ design.jpg');
 	background-size:cover;
 }
 form{
@@ -25,14 +25,14 @@ input{
 	margin:18px;
 	border:none;
 	outline:none;
-	font-size:22px;
+	font-size:21px;
 	border-bottom: 2px solid white;
 	background: transparent;
 	color: #f7f7ff;
 
 }
 button{
-	width:350px;
+	width:250px;
 	height:40px;
 	font-size:25px;
 	border-radius: 20px;
