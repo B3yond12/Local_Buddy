@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&display=swap');
 *{
     margin-left: 100px; 
     margin-right: 100px;
@@ -5,18 +9,26 @@
     margin-bottom: 20px;
     background-color: #ffdcbe;
 }h1{
+    font-family: 'Goblin One';
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
+    font-weight: 100;
     text-decoration: underline;
 }
 h3{
-    font-size: 40px;
+    font-family: 'Libre Baskerville';
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
 }
 img{
     width: 1000px;
     height: 500px;
 }
 p{
+    font-family: 'Libre Baskerville';
     width: 1000px;
     font-size: 20px;
+    font-weight: 50;
+    text-align: center;
 }

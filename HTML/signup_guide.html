@@ -6,20 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../CSS/signup_guidedesign.css">
 </head>
 <body>
-<form>
-	<h1>Sign Up</h1>
-	<br>
-	<input type="text" name="Full Name" placeholder="Name"/>
-	<input type="text" name="username" placeholder="Username" />
-	<input type="number" name="phonenumber" placeholder="Phone Number" />
-	<input type="password" name="password" placeholder="Password" />
-	<input type="password" name="password" placeholder="Confirm Password">
-	<input type="text" name="place" placeholder="Place of Interest"/>
-	<p>Please upload a valid Photo ID</p>		
-	  <input type="file" id="myFile" name="filename">
-     </form>
-	<button onclick = "writeData()">Sign Up</button>
- </form>
+
  <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
 
@@ -31,11 +18,11 @@
 <form>
 	<h1>Sign Up</h1>
 	<br>
-	<input type="text" name="Full Name" placeholder="Name"/>
-	<input type="text" name="username" placeholder="Username" />
-	<input type="number" name="phonenumber" placeholder="Phone Number" />
-	<input class="pwd1" type="password" name="password" placeholder="Password" />
-	<input class="text" name="placeofinterest" placeholder="Place of Interest"/>
+	<input type="text" id="fullname" placeholder="Full Name"/>
+	<input type="text" id="username" placeholder="Username" />
+	<input type="number" id="phonenumber" placeholder="Phone Number" />
+	<input id="pwd1" type="password" name="password" placeholder="Password" />
+	<input type="text" id="place" placeholder="Place of Interest"/>
   </div>
 
      </form>     
@@ -62,13 +49,11 @@
   firebase.analytics();
   function writeData() {
 	  firebase.database().ref("guide").push({
-		 Name: document.getElementById("Name").value,
+		 Name: document.getElementById("Full Name").value,
 		username : document.getElementById("username").value,
-    phonenumber : document.getElementById("Phonenumber").value,
+    phonenumber : document.getElementById("phonenumber").value,
     password : document.getElementById("password").value,
-    place : document.getElementById("place").value,
-    myFile : document.getElementById("myFile").value
-	  
+    place : document.getElementById("place").value   	  
   });
   }
 
