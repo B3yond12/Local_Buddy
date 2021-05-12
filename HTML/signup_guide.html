@@ -24,30 +24,15 @@
 	<input type="text" name="username" placeholder="Username" />
 	<input type="number" name="phonenumber" placeholder="Phone Number" />
 	<input class="pwd1" type="password" name="password" placeholder="Password" />
-	<input class="pwd2" type="password" name="password" placeholder="Confirm Password">
-	<input type="text" name="place" placeholder="Place of Interest"/>
-	<p>Please upload a valid Photo ID</p>		
-	  <input type="file" id="myFile" name="filename">
+	<input class="text" name="placeofinterest" placeholder="Place of Interest"/>
+  </div>
+
      </form>     
 	<button class="btn-signup" onclick = "writeData()">Sign Up</button>
+  <br>
+  <p id="lg">Already have an account? <a id="log" href="Login_index.html">Login</a></p>
  </form>
- <script>
-  document.querySelector('.btn-signup').onclick=function(){
-    var password=document.querySelector('.pwd1').value,
-    confirmPassword=document.querySelector('.pwd2').value;
-    if(password=""){
-      alert("Password Field cannot be empty!!");
-    }
-    else if(password!=confirmPassword){
-      alert("Passwords do not match. Try again!!");
-      return false
-    }
-    else if(password==confirmPassword){
-      alert("Passwords match!!!");
-    }
-    return true
-  }
-</script>
+ 
 
 <script>
   // Your web app's Firebase configuration
@@ -70,7 +55,6 @@
 		username : document.getElementById("username").value,
     phonenumber : document.getElementById("Phonenumber").value,
     password : document.getElementById("password").value,
-    password : document.getElementById("Password").value,
     place : document.getElementById("place").value,
     myFile : document.getElementById("myFile").value
 	  

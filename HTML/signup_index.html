@@ -21,23 +21,10 @@
 	<input id="usrname" type="text" name="username" placeholder="Username" required/>
 	<input type="email" name="E-mail" id="E-mail" placeholder="E-mail">
 	<input class="pwd1" type="password" name="password" placeholder="Password" required/>
-	<input class="pwd2" type="password" name="password" placeholder="Confirm Password" required>
 	<button class="btn-signup" type="submit">Sign Up</button>
+	<br>
+	<br>
+  <p id="lg">Already have an account? <a id="log" href="Login_index.html">Login</a></p>
 </form>
-<script>
-	document.querySelector('.btn-signup').onclick=function(){
-		var password=document.querySelector('.pwd1').value,
-		confirmPassword=document.querySelector('.pwd2').value;
-		if(password=""){
-			alert("Password Field cannot be empty!!");
-		}
-		else if(password!=confirmPassword){
-			alert("Passwords do not match. Try again!!");
-			return false;
-		}
-		else;
-		return true;
-	}
-</script>
 </body>
 </html>

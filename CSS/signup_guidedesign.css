@@ -12,6 +12,16 @@ body{
 	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../Images/Untitled\ design.jpg');
 	background-size:cover;
 }
+#lg{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	
+}
+#log{
+	color:white;
+}
+
 
 form{
 	

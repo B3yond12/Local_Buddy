@@ -12,6 +12,13 @@ body{
 	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../Images/Untitled\ design.jpg');
 	background-size:cover;
 }
+#log{
+	color:white;
+}
+#lg{
+	color: white;
+	font-size: 20px;
+}
 form{
 	
 	margin-top: 60px;
@@ -25,7 +32,7 @@ input{
 	margin:18px;
 	border:none;
 	outline:none;
-	font-size:21px;
+	font-size:23px;
 	border-bottom: 2px solid white;
 	background: transparent;
 	color: #f7f7ff;
