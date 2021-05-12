@@ -1,0 +1,56 @@
+*{
+	
+	padding:0;
+	font-family:sans-serif;
+	box-sizing: border-box;
+}
+body{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	height:100vh;
+	background-image: url('../Images/Untitled\ design.jpg');
+	background-size:cover;
+}
+form{
+	
+	
+	align-items: center;
+	margin-top: 60px;
+	text-align: centre;
+	
+}
+
+form p{
+
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	
+}
+
+h1{
+	
+	font-family: Pacifico;
+	text-align: center;
+	color:#bdd5ea;
+	font-size: 70px;
+	text-decoration: underline;
+}
+.g{
+	
+	align-items: center;
+	text-align:centre;	
+	width:500px;
+	height:40px;
+	font-size:25px;
+	padding-top: 3px;
+	border:none;
+	outline:none;
+	border-top: 1.5px solid white;
+	border-bottom: 1.5px solid white;
+	
+	color: #f7f7ff;
+	
+}
+
