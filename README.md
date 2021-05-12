@@ -8,7 +8,7 @@ Tours have always been an escape from reality, to take our time off of our work 
 
 # Functionality
 User registration involves providing an username, password, phone number.
-Guide registration involves providing an username, password, contact details, profile picture, valid ID and places.
+Guide registration involves providing an username, password, contact details, valid ID and places.
 Users will be able to view the registered guides and selection of appropriate guides can be done by users.
 Information provided with guides can be used for contact with the respective guides.
 Profile customisation are provided for additional editing.
