@@ -6,7 +6,7 @@ Tours have always been an escape from reality, to take our time off of our work 
 ![istockphoto-1071461664-612x612](https://user-images.githubusercontent.com/52780623/115425261-17ae9200-a21d-11eb-8b47-aec48d9141c3.jpg)
 
 
-# App Functionality
+# Functionality
 User registration involves providing an username, password, phone number.
 Guide registration involves providing an username, password, contact details, profile picture, valid ID and places.
 Users will be able to view the registered guides and selection of appropriate guides can be done by users.
