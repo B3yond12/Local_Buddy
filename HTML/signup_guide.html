@@ -5,11 +5,22 @@
 	<title> Sign Up </title>
 	<link rel="stylesheet" type="text/css" href="../CSS/signup_guidedesign.css">
 </head>
-
-
 <body>
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
+<form>
+	<h1>Sign Up</h1>
+	<br>
+	<input type="text" name="Full Name" placeholder="Name"/>
+	<input type="text" name="username" placeholder="Username" />
+	<input type="number" name="phonenumber" placeholder="Phone Number" />
+	<input type="password" name="password" placeholder="Password" />
+	<input type="password" name="password" placeholder="Confirm Password">
+	<input type="text" name="place" placeholder="Place of Interest"/>
+	<p>Please upload a valid Photo ID</p>		
+	  <input type="file" id="myFile" name="filename">
+     </form>
+	<button onclick = "writeData()">Sign Up</button>
+ </form>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
 
 
