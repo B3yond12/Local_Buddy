@@ -21,7 +21,7 @@ Profile customisation are provided for additional editing.
 View guides dashboard and profile acquires data from our Firebase.</p>
 
 # Technologies Used
-<b><p>Framework:</b>
+<p>
 HTML,CSS,JS</p>
 <b>Database:</b>Firebase
 
