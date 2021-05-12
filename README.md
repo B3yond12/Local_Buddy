@@ -26,5 +26,4 @@ HTML,CSS,JS</p>
 <b>Database:</b>Firebase
 
 # Software Used
-<p>Android Studio</p>
 Microsoft Visual Studio Code
